@@ -1,0 +1,1604 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>OwlCalendarComponent | nxt-pick-datetime</title>
+	<meta name="description" content="Documentation for nxt-pick-datetime">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">nxt-pick-datetime</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">nxt-pick-datetime</a>
+				</li>
+				<li>
+					<a href="owlcalendarcomponent.html">OwlCalendarComponent</a>
+				</li>
+			</ul>
+			<h1>Class OwlCalendarComponent&lt;T&gt;</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-type-parameters">
+				<h3>Type parameters</h3>
+				<ul class="tsd-type-parameters">
+					<li>
+						<h4>T</h4>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">OwlCalendarComponent</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><span class="tsd-signature-type">OnInit</span></li>
+					<li><span class="tsd-signature-type">AfterContentInit</span></li>
+					<li><span class="tsd-signature-type">AfterViewChecked</span></li>
+					<li><span class="tsd-signature-type">OnDestroy</span></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_currentview" class="tsd-kind-icon">_current<wbr>View</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_maxdate" class="tsd-kind-icon">_max<wbr>Date</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_mindate" class="tsd-kind-icon">_min<wbr>Date</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_pickermoment" class="tsd-kind-icon">_picker<wbr>Moment</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_selected" class="tsd-kind-icon">_selected</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#_selecteds" class="tsd-kind-icon">_selecteds</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#cdref" class="tsd-kind-icon">cd<wbr>Ref</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#datefilter" class="tsd-kind-icon">date<wbr>Filter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#datetimeadapter" class="tsd-kind-icon">date<wbr>Time<wbr>Adapter</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#datetimeformats" class="tsd-kind-icon">date<wbr>Time<wbr>Formats</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#elmref" class="tsd-kind-icon">elm<wbr>Ref</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#firstdayofweek" class="tsd-kind-icon">first<wbr>Day<wbr>OfWeek</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#hideothermonths" class="tsd-kind-icon">hide<wbr>Other<wbr>Months</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#intlchangessub" class="tsd-kind-icon">intl<wbr>Changes<wbr>Sub</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#monthselected" class="tsd-kind-icon">month<wbr>Selected</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#movefocusonnexttick" class="tsd-kind-icon">move<wbr>Focus<wbr>OnNext<wbr>Tick</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#ngzone" class="tsd-kind-icon">ng<wbr>Zone</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#pickerintl" class="tsd-kind-icon">picker<wbr>Intl</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#pickermomentchange" class="tsd-kind-icon">picker<wbr>Moment<wbr>Change</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selectmode" class="tsd-kind-icon">select<wbr>Mode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selectedchange" class="tsd-kind-icon">selected<wbr>Change</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#startview" class="tsd-kind-icon">start<wbr>View</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#userselection" class="tsd-kind-icon">user<wbr>Selection</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="owlcalendarcomponent.html#yearselected" class="tsd-kind-icon">year<wbr>Selected</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#currentview" class="tsd-kind-icon">current<wbr>View</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#isinrangemode" class="tsd-kind-icon">is<wbr>InRange<wbr>Mode</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#isinsinglemode" class="tsd-kind-icon">is<wbr>InSingle<wbr>Mode</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#ismonthview" class="tsd-kind-icon">is<wbr>Month<wbr>View</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#maxdate" class="tsd-kind-icon">max<wbr>Date</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#mindate" class="tsd-kind-icon">min<wbr>Date</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#nextbuttonlabel" class="tsd-kind-icon">next<wbr>Button<wbr>Label</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#owldtcalendarclass" class="tsd-kind-icon">owlDTCalendar<wbr>Class</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#periodbuttonlabel" class="tsd-kind-icon">period<wbr>Button<wbr>Label</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#periodbuttontext" class="tsd-kind-icon">period<wbr>Button<wbr>Text</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#pickermoment" class="tsd-kind-icon">picker<wbr>Moment</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#prevbuttonlabel" class="tsd-kind-icon">prev<wbr>Button<wbr>Label</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selected" class="tsd-kind-icon">selected</a></li>
+								<li class="tsd-kind-accessor tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selecteds" class="tsd-kind-icon">selecteds</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="owlcalendarcomponent.html#showcontrolarrows" class="tsd-kind-icon">show<wbr>Control<wbr>Arrows</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#datefilterforviews" class="tsd-kind-icon">date<wbr>Filter<wbr>For<wbr>Views</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#dateselected" class="tsd-kind-icon">date<wbr>Selected</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#focusactivecell" class="tsd-kind-icon">focus<wbr>Active<wbr>Cell</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#getvaliddate" class="tsd-kind-icon">get<wbr>Valid<wbr>Date</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#gotodateinview" class="tsd-kind-icon">go<wbr>ToDate<wbr>InView</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#handlepickermomentchange" class="tsd-kind-icon">handle<wbr>Picker<wbr>Moment<wbr>Change</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="owlcalendarcomponent.html#issameview" class="tsd-kind-icon">is<wbr>Same<wbr>View</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#nextbuttonenabled" class="tsd-kind-icon">next<wbr>Button<wbr>Enabled</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#nextclicked" class="tsd-kind-icon">next<wbr>Clicked</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#ngaftercontentinit" class="tsd-kind-icon">ng<wbr>After<wbr>Content<wbr>Init</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#ngafterviewchecked" class="tsd-kind-icon">ng<wbr>After<wbr>View<wbr>Checked</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#ngondestroy" class="tsd-kind-icon">ng<wbr>OnDestroy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#ngoninit" class="tsd-kind-icon">ng<wbr>OnInit</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#prevbuttonenabled" class="tsd-kind-icon">prev<wbr>Button<wbr>Enabled</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#previousclicked" class="tsd-kind-icon">previous<wbr>Clicked</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selectmonthinyearview" class="tsd-kind-icon">select<wbr>Month<wbr>InYear<wbr>View</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#selectyearinmultiyearview" class="tsd-kind-icon">select<wbr>Year<wbr>InMulti<wbr>Year<wbr>View</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#toggleviews" class="tsd-kind-icon">toggle<wbr>Views</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="owlcalendarcomponent.html#userselected" class="tsd-kind-icon">user<wbr>Selected</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Owl<wbr>Calendar<wbr>Component<span class="tsd-signature-symbol">(</span>elmRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ElementRef</span>, pickerIntl<span class="tsd-signature-symbol">: </span><a href="owldatetimeintl.html" class="tsd-signature-type">OwlDateTimeIntl</a>, ngZone<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">NgZone</span>, cdRef<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ChangeDetectorRef</span>, dateTimeAdapter<span class="tsd-signature-symbol">: </span><a href="datetimeadapter.html" class="tsd-signature-type">DateTimeAdapter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, dateTimeFormats<span class="tsd-signature-symbol">: </span><a href="../interfaces/owldatetimeformats.html" class="tsd-signature-type">OwlDateTimeFormats</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="owlcalendarcomponent.html" class="tsd-signature-type">OwlCalendarComponent</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L242">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:242</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>elmRef: <span class="tsd-signature-type">ElementRef</span></h5>
+								</li>
+								<li>
+									<h5>pickerIntl: <a href="owldatetimeintl.html" class="tsd-signature-type">OwlDateTimeIntl</a></h5>
+								</li>
+								<li>
+									<h5>ngZone: <span class="tsd-signature-type">NgZone</span></h5>
+								</li>
+								<li>
+									<h5>cdRef: <span class="tsd-signature-type">ChangeDetectorRef</span></h5>
+								</li>
+								<li>
+									<h5>dateTimeAdapter: <a href="datetimeadapter.html" class="tsd-signature-type">DateTimeAdapter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>dateTimeFormats: <a href="../interfaces/owldatetimeformats.html" class="tsd-signature-type">OwlDateTimeFormats</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="owlcalendarcomponent.html" class="tsd-signature-type">OwlCalendarComponent</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_currentview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _current<wbr>View</h3>
+					<div class="tsd-signature tsd-kind-icon">_current<wbr>View<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L183">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:183</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_maxdate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _max<wbr>Date</h3>
+					<div class="tsd-signature tsd-kind-icon">_max<wbr>Date<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L52">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:52</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The maximum selectable date.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_mindate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _min<wbr>Date</h3>
+					<div class="tsd-signature tsd-kind-icon">_min<wbr>Date<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L32">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:32</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The minimum selectable date.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_pickermoment" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _picker<wbr>Moment</h3>
+					<div class="tsd-signature tsd-kind-icon">_picker<wbr>Moment<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L72">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:72</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The current picker moment</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_selected" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _selected</h3>
+					<div class="tsd-signature tsd-kind-icon">_selected<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L88">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:88</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The currently selected moment.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_selecteds" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _selecteds</h3>
+					<div class="tsd-signature tsd-kind-icon">_selecteds<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = []</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L99">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:99</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="cdref" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> cd<wbr>Ref</h3>
+					<div class="tsd-signature tsd-kind-icon">cd<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ChangeDetectorRef</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L248">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:248</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="datefilter" class="tsd-anchor"></a>
+					<h3>date<wbr>Filter</h3>
+					<div class="tsd-signature tsd-kind-icon">date<wbr>Filter<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DateFilter</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L23">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:23</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Date filter for the month and year view</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="datetimeadapter" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> date<wbr>Time<wbr>Adapter</h3>
+					<div class="tsd-signature tsd-kind-icon">date<wbr>Time<wbr>Adapter<span class="tsd-signature-symbol">:</span> <a href="datetimeadapter.html" class="tsd-signature-type">DateTimeAdapter</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L249">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:249</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="datetimeformats" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> date<wbr>Time<wbr>Formats</h3>
+					<div class="tsd-signature tsd-kind-icon">date<wbr>Time<wbr>Formats<span class="tsd-signature-symbol">:</span> <a href="../interfaces/owldatetimeformats.html" class="tsd-signature-type">OwlDateTimeFormats</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L252">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:252</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="elmref" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> elm<wbr>Ref</h3>
+					<div class="tsd-signature tsd-kind-icon">elm<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ElementRef</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L245">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:245</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="firstdayofweek" class="tsd-anchor"></a>
+					<h3>first<wbr>Day<wbr>OfWeek</h3>
+					<div class="tsd-signature tsd-kind-icon">first<wbr>Day<wbr>OfWeek<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> = 0</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L29">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:29</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Set the first day of week</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hideothermonths" class="tsd-anchor"></a>
+					<h3>hide<wbr>Other<wbr>Months</h3>
+					<div class="tsd-signature tsd-kind-icon">hide<wbr>Other<wbr>Months<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L122">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:122</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether to hide dates in other months at the start or end of the current month.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="intlchangessub" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> intl<wbr>Changes<wbr>Sub</h3>
+					<div class="tsd-signature tsd-kind-icon">intl<wbr>Changes<wbr>Sub<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Subscription</span><span class="tsd-signature-symbol"> = Subscription.EMPTY</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L235">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:235</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="monthselected" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> month<wbr>Selected</h3>
+					<div class="tsd-signature tsd-kind-icon">month<wbr>Selected<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;T&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L146">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:146</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emits the selected month. This doesn&#39;t imply a change on the selected date</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="movefocusonnexttick" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> move<wbr>Focus<wbr>OnNext<wbr>Tick</h3>
+					<div class="tsd-signature tsd-kind-icon">move<wbr>Focus<wbr>OnNext<wbr>Tick<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L242">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:242</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Used for scheduling that focus should be moved to the active cell on the next tick.
+								We need to schedule it, rather than do it immediately, because we have to wait
+							for Angular to re-evaluate the view children.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="ngzone" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> ng<wbr>Zone</h3>
+					<div class="tsd-signature tsd-kind-icon">ng<wbr>Zone<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">NgZone</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L247">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:247</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="pickerintl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> picker<wbr>Intl</h3>
+					<div class="tsd-signature tsd-kind-icon">picker<wbr>Intl<span class="tsd-signature-symbol">:</span> <a href="owldatetimeintl.html" class="tsd-signature-type">OwlDateTimeIntl</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L246">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:246</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pickermomentchange" class="tsd-anchor"></a>
+					<h3>picker<wbr>Moment<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">picker<wbr>Moment<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;T&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L126">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:126</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emits when the currently picker moment changes.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="selectmode" class="tsd-anchor"></a>
+					<h3>select<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">select<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">SelectMode</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L85">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:85</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="selectedchange" class="tsd-anchor"></a>
+					<h3>selected<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">selected<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;T&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L130">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:130</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emits when the currently selected date changes.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="startview" class="tsd-anchor"></a>
+					<h3>start<wbr>View</h3>
+					<div class="tsd-signature tsd-kind-icon">start<wbr>View<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span><span class="tsd-signature-symbol"> = &quot;month&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L116">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:116</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The view that the calendar should start in.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="userselection" class="tsd-anchor"></a>
+					<h3>user<wbr>Selection</h3>
+					<div class="tsd-signature tsd-kind-icon">user<wbr>Selection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;void&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L134">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:134</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emits when any date is selected.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="yearselected" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> year<wbr>Selected</h3>
+					<div class="tsd-signature tsd-kind-icon">year<wbr>Selected<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">EventEmitter</span><span class="tsd-signature-symbol"> = new EventEmitter&lt;T&gt;()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L140">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:140</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Emits the selected year. This doesn&#39;t imply a change on the selected date</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="currentview" class="tsd-anchor"></a>
+					<h3>current<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> currentView<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> currentView<span class="tsd-signature-symbol">(</span>view<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L184">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:184</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L188">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:188</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>view: <span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="isinrangemode" class="tsd-anchor"></a>
+					<h3>is<wbr>InRange<wbr>Mode</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> isInRangeMode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L197">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:197</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="isinsinglemode" class="tsd-anchor"></a>
+					<h3>is<wbr>InSingle<wbr>Mode</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> isInSingleMode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L193">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:193</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="ismonthview" class="tsd-anchor"></a>
+					<h3>is<wbr>Month<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> isMonthView<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L209">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:209</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="maxdate" class="tsd-anchor"></a>
+					<h3>max<wbr>Date</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> maxDate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> maxDate<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L54">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:54</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L58">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:58</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="mindate" class="tsd-anchor"></a>
+					<h3>min<wbr>Date</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> minDate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> minDate<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L34">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:34</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L38">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:38</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="nextbuttonlabel" class="tsd-anchor"></a>
+					<h3>next<wbr>Button<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> nextButtonLabel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L173">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:173</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="owldtcalendarclass" class="tsd-anchor"></a>
+					<h3>owlDTCalendar<wbr>Class</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> owlDTCalendarClass<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L231">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:231</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Bind class &#39;owl-dt-calendar&#39; to host</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="periodbuttonlabel" class="tsd-anchor"></a>
+					<h3>period<wbr>Button<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> periodButtonLabel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L157">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:157</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="periodbuttontext" class="tsd-anchor"></a>
+					<h3>period<wbr>Button<wbr>Text</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> periodButtonText<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L148">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:148</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="pickermoment" class="tsd-anchor"></a>
+					<h3>picker<wbr>Moment</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> pickerMoment<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> pickerMoment<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L74">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:74</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L78">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:78</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="prevbuttonlabel" class="tsd-anchor"></a>
+					<h3>prev<wbr>Button<wbr>Label</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> prevButtonLabel<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L163">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:163</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="selected" class="tsd-anchor"></a>
+					<h3>selected</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> selected<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> selected<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L90">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:90</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L94">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:94</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-accessor tsd-parent-kind-class">
+					<a name="selecteds" class="tsd-anchor"></a>
+					<h3>selecteds</h3>
+					<ul class="tsd-signatures tsd-kind-accessor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> selecteds<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">set</span> selecteds<span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L101">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:101</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L105">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:105</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>values: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="showcontrolarrows" class="tsd-anchor"></a>
+					<h3>show<wbr>Control<wbr>Arrows</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> showControlArrows<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L205">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:205</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="datefilterforviews" class="tsd-anchor"></a>
+					<h3>date<wbr>Filter<wbr>For<wbr>Views</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">date<wbr>Filter<wbr>For<wbr>Views<span class="tsd-signature-symbol">(</span>date<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L216">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:216</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Date filter for the month and year view</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>date: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="dateselected" class="tsd-anchor"></a>
+					<h3>date<wbr>Selected</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">date<wbr>Selected<span class="tsd-signature-symbol">(</span>date<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L306">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:306</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>date: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="focusactivecell" class="tsd-anchor"></a>
+					<h3>focus<wbr>Active<wbr>Cell</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">focus<wbr>Active<wbr>Cell<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L369">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:369</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Focus to the host element</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="getvaliddate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> get<wbr>Valid<wbr>Date</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Valid<wbr>Date<span class="tsd-signature-symbol">(</span>obj<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L418">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:418</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Get a valid date object</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>obj: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gotodateinview" class="tsd-anchor"></a>
+					<h3>go<wbr>ToDate<wbr>InView</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">go<wbr>ToDate<wbr>InView<span class="tsd-signature-symbol">(</span>date<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, view<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L322">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:322</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Change the pickerMoment value and switch to a specific view</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>date: <span class="tsd-signature-type">T</span></h5>
+								</li>
+								<li>
+									<h5>view: <span class="tsd-signature-type">&quot;month&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;year&quot;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">&quot;multi-years&quot;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="handlepickermomentchange" class="tsd-anchor"></a>
+					<h3>handle<wbr>Picker<wbr>Moment<wbr>Change</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">handle<wbr>Picker<wbr>Moment<wbr>Change<span class="tsd-signature-symbol">(</span>date<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L334">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:334</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Change the pickerMoment value</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>date: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="issameview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> is<wbr>Same<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Same<wbr>View<span class="tsd-signature-symbol">(</span>date1<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, date2<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L393">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:393</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whether the two dates represent the same view in the current view mode (month or year).</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>date1: <span class="tsd-signature-type">T</span></h5>
+								</li>
+								<li>
+									<h5>date2: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="nextbuttonenabled" class="tsd-anchor"></a>
+					<h3>next<wbr>Button<wbr>Enabled</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">next<wbr>Button<wbr>Enabled<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L360">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:360</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whether the next period button is enabled.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="nextclicked" class="tsd-anchor"></a>
+					<h3>next<wbr>Clicked</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">next<wbr>Clicked<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L298">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:298</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handles user clicks on the next button.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ngaftercontentinit" class="tsd-anchor"></a>
+					<h3>ng<wbr>After<wbr>Content<wbr>Init</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ng<wbr>After<wbr>Content<wbr>Init<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L261">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:261</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ngafterviewchecked" class="tsd-anchor"></a>
+					<h3>ng<wbr>After<wbr>View<wbr>Checked</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ng<wbr>After<wbr>View<wbr>Checked<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L265">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:265</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ngondestroy" class="tsd-anchor"></a>
+					<h3>ng<wbr>OnDestroy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ng<wbr>OnDestroy<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L272">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:272</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="ngoninit" class="tsd-anchor"></a>
+					<h3>ng<wbr>OnInit</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">ng<wbr>OnInit<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L259">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:259</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="prevbuttonenabled" class="tsd-anchor"></a>
+					<h3>prev<wbr>Button<wbr>Enabled</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">prev<wbr>Button<wbr>Enabled<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L351">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:351</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Whether the previous period button is enabled.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="previousclicked" class="tsd-anchor"></a>
+					<h3>previous<wbr>Clicked</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">previous<wbr>Clicked<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L287">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:287</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Handles user clicks on the previous button.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="selectmonthinyearview" class="tsd-anchor"></a>
+					<h3>select<wbr>Month<wbr>InYear<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Month<wbr>InYear<wbr>View<span class="tsd-signature-symbol">(</span>normalizedMonth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L386">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:386</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>normalizedMonth: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="selectyearinmultiyearview" class="tsd-anchor"></a>
+					<h3>select<wbr>Year<wbr>InMulti<wbr>Year<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Year<wbr>InMulti<wbr>Year<wbr>View<span class="tsd-signature-symbol">(</span>normalizedYear<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L382">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:382</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>normalizedYear: <span class="tsd-signature-type">T</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="toggleviews" class="tsd-anchor"></a>
+					<h3>toggle<wbr>Views</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">toggle<wbr>Views<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L279">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:279</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Toggle between month view and year view</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="userselected" class="tsd-anchor"></a>
+					<h3>user<wbr>Selected</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">user<wbr>Selected<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Liquid-JS/date-time-picker/blob/b6924f7/projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts#L344">projects/nxt-pick-datetime/src/lib/date-time/calendar/calendar.component.ts:344</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Exports</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="datetimeadapter.html" class="tsd-kind-icon">Date<wbr>Time<wbr>Adapter</a>
+					</li>
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-has-type-parameter">
+						<a href="owlcalendarcomponent.html" class="tsd-kind-icon">Owl<wbr>Calendar<wbr>Component</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_currentview" class="tsd-kind-icon">_current<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_maxdate" class="tsd-kind-icon">_max<wbr>Date</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_mindate" class="tsd-kind-icon">_min<wbr>Date</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_pickermoment" class="tsd-kind-icon">_picker<wbr>Moment</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_selected" class="tsd-kind-icon">_selected</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#_selecteds" class="tsd-kind-icon">_selecteds</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#cdref" class="tsd-kind-icon">cd<wbr>Ref</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#datefilter" class="tsd-kind-icon">date<wbr>Filter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#datetimeadapter" class="tsd-kind-icon">date<wbr>Time<wbr>Adapter</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#datetimeformats" class="tsd-kind-icon">date<wbr>Time<wbr>Formats</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#elmref" class="tsd-kind-icon">elm<wbr>Ref</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#firstdayofweek" class="tsd-kind-icon">first<wbr>Day<wbr>OfWeek</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#hideothermonths" class="tsd-kind-icon">hide<wbr>Other<wbr>Months</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#intlchangessub" class="tsd-kind-icon">intl<wbr>Changes<wbr>Sub</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#monthselected" class="tsd-kind-icon">month<wbr>Selected</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#movefocusonnexttick" class="tsd-kind-icon">move<wbr>Focus<wbr>OnNext<wbr>Tick</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#ngzone" class="tsd-kind-icon">ng<wbr>Zone</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#pickerintl" class="tsd-kind-icon">picker<wbr>Intl</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#pickermomentchange" class="tsd-kind-icon">picker<wbr>Moment<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selectmode" class="tsd-kind-icon">select<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selectedchange" class="tsd-kind-icon">selected<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#startview" class="tsd-kind-icon">start<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#userselection" class="tsd-kind-icon">user<wbr>Selection</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#yearselected" class="tsd-kind-icon">year<wbr>Selected</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#currentview" class="tsd-kind-icon">current<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#isinrangemode" class="tsd-kind-icon">is<wbr>InRange<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#isinsinglemode" class="tsd-kind-icon">is<wbr>InSingle<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#ismonthview" class="tsd-kind-icon">is<wbr>Month<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#maxdate" class="tsd-kind-icon">max<wbr>Date</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#mindate" class="tsd-kind-icon">min<wbr>Date</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#nextbuttonlabel" class="tsd-kind-icon">next<wbr>Button<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#owldtcalendarclass" class="tsd-kind-icon">owlDTCalendar<wbr>Class</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#periodbuttonlabel" class="tsd-kind-icon">period<wbr>Button<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#periodbuttontext" class="tsd-kind-icon">period<wbr>Button<wbr>Text</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#pickermoment" class="tsd-kind-icon">picker<wbr>Moment</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#prevbuttonlabel" class="tsd-kind-icon">prev<wbr>Button<wbr>Label</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selected" class="tsd-kind-icon">selected</a>
+							</li>
+							<li class=" tsd-kind-accessor tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selecteds" class="tsd-kind-icon">selecteds</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#showcontrolarrows" class="tsd-kind-icon">show<wbr>Control<wbr>Arrows</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#datefilterforviews" class="tsd-kind-icon">date<wbr>Filter<wbr>For<wbr>Views</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#dateselected" class="tsd-kind-icon">date<wbr>Selected</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#focusactivecell" class="tsd-kind-icon">focus<wbr>Active<wbr>Cell</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#getvaliddate" class="tsd-kind-icon">get<wbr>Valid<wbr>Date</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#gotodateinview" class="tsd-kind-icon">go<wbr>ToDate<wbr>InView</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#handlepickermomentchange" class="tsd-kind-icon">handle<wbr>Picker<wbr>Moment<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="owlcalendarcomponent.html#issameview" class="tsd-kind-icon">is<wbr>Same<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#nextbuttonenabled" class="tsd-kind-icon">next<wbr>Button<wbr>Enabled</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#nextclicked" class="tsd-kind-icon">next<wbr>Clicked</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#ngaftercontentinit" class="tsd-kind-icon">ng<wbr>After<wbr>Content<wbr>Init</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#ngafterviewchecked" class="tsd-kind-icon">ng<wbr>After<wbr>View<wbr>Checked</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#ngondestroy" class="tsd-kind-icon">ng<wbr>OnDestroy</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#ngoninit" class="tsd-kind-icon">ng<wbr>OnInit</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#prevbuttonenabled" class="tsd-kind-icon">prev<wbr>Button<wbr>Enabled</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#previousclicked" class="tsd-kind-icon">previous<wbr>Clicked</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selectmonthinyearview" class="tsd-kind-icon">select<wbr>Month<wbr>InYear<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#selectyearinmultiyearview" class="tsd-kind-icon">select<wbr>Year<wbr>InMulti<wbr>Year<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#toggleviews" class="tsd-kind-icon">toggle<wbr>Views</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="owlcalendarcomponent.html#userselected" class="tsd-kind-icon">user<wbr>Selected</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owldatetimecomponent.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owldatetimeinlinecomponent.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Inline<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owldatetimeinputdirective.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Input<wbr>Directive</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="owldatetimeintl.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Intl</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="owldatetimemodule.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Module</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owldatetimetriggerdirective.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Trigger<wbr>Directive</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owlmonthviewcomponent.html" class="tsd-kind-icon">Owl<wbr>Month<wbr>View<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owlmultiyearviewcomponent.html" class="tsd-kind-icon">Owl<wbr>Multi<wbr>Year<wbr>View<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owltimercomponent.html" class="tsd-kind-icon">Owl<wbr>Timer<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter">
+						<a href="owlyearviewcomponent.html" class="tsd-kind-icon">Owl<wbr>Year<wbr>View<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/owldatetimeformats.html" class="tsd-kind-icon">Owl<wbr>Date<wbr>Time<wbr>Formats</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#owl_date_time_formats" class="tsd-kind-icon">OWL_<wbr>DATE_<wbr>TIME_<wbr>FORMATS</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../modules.html#owl_date_time_locale" class="tsd-kind-icon">OWL_<wbr>DATE_<wbr>TIME_<wbr>LOCALE</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="../modules.html#owl_date_time_locale_provider" class="tsd-kind-icon">OWL_<wbr>DATE_<wbr>TIME_<wbr>LOCALE_<wbr>PROVIDER</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
